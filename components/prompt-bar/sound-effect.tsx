@@ -19,7 +19,6 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Slider } from '@/components/ui/slider';
 import { SoundEffectInput as SoundEffectInputType, soundEffectSchema } from '@/lib/schemas';
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 
 export type SoundEffectPromptProps = {
   onPendingEffect: (prompt: string) => string;

@@ -23,7 +23,6 @@ import { STT_MODELS } from '@/lib/schemas';
 import { groupWordsBySpeaker } from './lib/transcription-utils';
 
 type ViewState = 'upload' | 'result';
-type InputMethod = 'file' | 'microphone';
 
 export default function Page() {
   const [viewState, setViewState] = useState<ViewState>('upload');

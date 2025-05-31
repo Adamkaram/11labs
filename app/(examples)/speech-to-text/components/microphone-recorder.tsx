@@ -1,6 +1,6 @@
 'use client';
 
-import { Mic, Square, Loader2 } from 'lucide-react';
+import { Mic, Square } from 'lucide-react';
 import { useState, useRef, useCallback, useEffect } from 'react';
 import { toast } from 'sonner';
 
